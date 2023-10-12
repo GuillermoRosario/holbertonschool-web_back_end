@@ -11,4 +11,4 @@ export default function cleanSet(_set, startString) {
       }
     }
     return string;
-  }
+}

@@ -6,4 +6,4 @@ export default function createInt8TypedArray(length, position, value) {
   
     view.set([value], position);
     return new DataView(buffer);
-  }
+}
