@@ -1,6 +1,3 @@
-/* eslint-disable */
-export default class ClassRoom {
-    constructor(maxStudentsSize) {
-      this._maxStudentsSize = maxStudentsSize;
-    }
-  }
+export default function getResponseFromAPI() {
+  return new Promise((res, rej) => [res, rej]);
+}
